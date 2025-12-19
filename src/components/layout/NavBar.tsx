@@ -1,7 +1,7 @@
 import clsx from "clsx";
-import Logo from "../../../public/RimiLogo.png";
+import Logo from "/RimiLogo.png";
 import { useState } from "react";
-import type { Menu } from "../../types/menu";
+import type { Menu } from "@/types/menu";
 
 const NavBar = () => {
   const menus: Menu[] = ["Projects", "About", "Contact"];
